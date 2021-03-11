@@ -72,5 +72,5 @@ class Listener:
       
 
 if __name__ == "__main__":
-   listener = Listener("192.168.1.104", 4444)
+   listener = Listener("", 4444)
    listener.run()
